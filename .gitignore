@@ -1,0 +1,15 @@
+# Ignore all python virtual environments
+**/venv/
+**/.venv/
+venv/
+
+# Ignore all environment secret files
+**/.env
+.env
+
+# Ignore python cache folders
+**/__pycache__/
+*.pyc
+
+# Ignore local SQLite database binaries
+*.db
